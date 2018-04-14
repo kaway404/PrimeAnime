@@ -62,6 +62,30 @@
                 </div>
             </div>
 
+            <div id="coveranime">
+                <img src="/img/animes/rezero.jpg">
+                <div id="footera">
+                    <p>Re:Zero</p>
+                </div>
+            </div>
+
+             <div id="coveranime">
+                <img src="/img/animes/capa.jpg">
+                <div id="footera">
+                    <p>One Punch Man</p>
+                </div>
+            </div>
+
+            
+
+            <div id="coveranime" class="wow">
+                <p>Uma terra assolada pelo caos - Atlatan. Temendo o desastre causado pelo caos, o povo vive sob a proteção dos Senhores - indivíduos munidos do poder dos Brasões, usados para suprimir o caos. Contudo, os Senhores desistiram de proteger seu povo e se viraram uns contra os outros em uma guerra fria, tentando furtar os Brasões uns dos outros para obter supremacia. Dentre eles está Siluca, um mago solitário que detesta os Senhores, e Theo, um cavaleiro errante que segue em jornada de treinamento para algum dia libertar sua terra natal de seu governo tirânico.</p>
+                <div id="wowd"></div>
+            </div>
+            <div id="coveranime" class="wow">
+                <p>Uma terra assolada pelo caos - Atlatan. Temendo o desastre causado pelo caos, o povo vive sob a proteção dos Senhores - indivíduos munidos do poder dos Brasões, usados para suprimir o caos. Contudo, os Senhores desistiram de proteger seu povo e se viraram uns contra os outros em uma guerra fria, tentando furtar os Brasões uns dos outros para obter supremacia. Dentre eles está Siluca, um mago solitário que detesta os Senhores, e Theo, um cavaleiro errante que segue em jornada de treinamento para algum dia libertar sua terra natal de seu governo tirânico.</p>
+                <div id="wowd"></div>
+            </div>
             <div id="coveranime" class="wow">
                 <p>Uma terra assolada pelo caos - Atlatan. Temendo o desastre causado pelo caos, o povo vive sob a proteção dos Senhores - indivíduos munidos do poder dos Brasões, usados para suprimir o caos. Contudo, os Senhores desistiram de proteger seu povo e se viraram uns contra os outros em uma guerra fria, tentando furtar os Brasões uns dos outros para obter supremacia. Dentre eles está Siluca, um mago solitário que detesta os Senhores, e Theo, um cavaleiro errante que segue em jornada de treinamento para algum dia libertar sua terra natal de seu governo tirânico.</p>
                 <div id="wowd"></div>
