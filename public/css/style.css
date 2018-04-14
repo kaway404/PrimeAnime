@@ -178,7 +178,7 @@ body{
     cursor: pointer;
 }
 
-#assinar .assinar:focus{
+#assinar .assinar:hover{
     background-color: #e9e6f6 !important;
     -webkit-box-shadow: inset 0 0 8px rgba(62,45,125,.1);
     -moz-box-shadow: inset 0 0 8px rgba(62,45,125,.1);
@@ -387,7 +387,7 @@ footer{
     cursor: pointer;
 }
 
-#alinhara .ja:focus{
+#alinhara .ja:hover{
     background-color: #e9e6f6 !important;
     -webkit-box-shadow: inset 0 0 8px rgba(62,45,125,.1);
     -moz-box-shadow: inset 0 0 8px rgba(62,45,125,.1);
