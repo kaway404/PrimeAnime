@@ -246,11 +246,15 @@ body{
     color: #fff;
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -webkit-transition: background ease-in-out .45s;
+    transition: background ease-in-out .45s;
     background: radial-gradient(ellipse at top,#2d2258,#321e7b 80%,#1d1e44);
     padding: 10px;
     font-size: 16px;
     right: 40px;
     cursor: pointer;
+}
+
+.sessao:hover{
+    background: radial-gradient(ellipse at top,#3b2b7a,#35227a 80%,#15154b);
 }
