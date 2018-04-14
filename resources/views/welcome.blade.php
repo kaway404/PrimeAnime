@@ -44,7 +44,7 @@
             <div id="coveranime">
                 <img src="/img/animes/record.jpeg">
                 <div id="footera">
-                    <p>Record of Grancrest War</p>
+                    <p>Record of Grancrest ..</p>
                 </div>
             </div>
 
