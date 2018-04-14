@@ -17,13 +17,13 @@
         <div id="info">
             <h1>PrimeAnime</h1>
             <p>Free Anime acelerado do Japão + todos os hits!</p>
+            <div id="cover-container">
+        <div class="watch-now">
+        </div>
+        </div>
         </div>
             <p>Em alta:</p>
             <h2>One Punch Man</h2>
-        </div>
-        <div id="cover-container">
-        <div class="watch-now">
-        </div>
         </div>
     </div>
 

@@ -22,9 +22,11 @@ body{
     margin: 0;
     height: 720px;
     position: absolute;  
-    width: 1200px;
+    width: 1250px;
     transform: scale(1.02);
-    bottom: -100px;
+    bottom: 0px;
+    float: right;
+    left: -80px;
 }
 
 #cover-container{
@@ -165,6 +167,7 @@ body{
     background: radial-gradient(ellipse at top,#4f3e8e,#3e2d7d 80%,#3e2d7d);
     padding: 10px;
     font-size: 18px;
+    cursor: pointer;
 }
 
 .podesa{
