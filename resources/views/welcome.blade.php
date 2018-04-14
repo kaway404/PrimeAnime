@@ -22,6 +22,7 @@
         </div>
         </div>
         </div>
+        <input type="submit" class="sessao" value="Iniciar sessão">
             <p>Em alta:</p>
             <h2>One Punch Man</h2>
         </div>
