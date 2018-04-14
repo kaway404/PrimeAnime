@@ -16,6 +16,7 @@ body{
     width: 100%;
     position: relative;
     height: 750px;
+    z-index: 100;
 }
 
 .watch-now{
@@ -119,6 +120,7 @@ body{
     -moz-box-shadow: 0 2px 6px rgba(0,0,0,.70);
     box-shadow: 0 2px 6px rgba(0,0,0,.70);
     padding: 70px;
+    z-index: 100;
 }
 
 #assinar .email-a{
@@ -175,6 +177,7 @@ body{
     width: 100%;
     height: 430px;
     background: radial-gradient(ellipse at top,#534e78,#46406c 80%,#46406c)!important;
+    position: static;
 }
 
 .podesa #animes{
@@ -292,4 +295,15 @@ body{
 
 .sessao:hover{
     background: radial-gradient(ellipse at top,#3b2b7a,#35227a 80%,#15154b);
+}
+
+footer{
+    margin: 40px 0 0;
+    background-color: #0a051d;
+    padding: 20px 0 15px;
+    text-align: center;
+    height: 200px;
+    position: static;
+    bottom: 0;
+    width: 100%;
 }
