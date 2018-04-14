@@ -211,10 +211,45 @@ body{
     white-space: nowrap;
 }
 
-.podesa #animes #coveranime:hover{
-    transform: scale(1.1);
-    margin-left: 30px;
-    margin-right: 30px;
+.wow{
+    background: #fff !important;
+    position: relative !important;
+    right: 0px;
+    bottom: 350px!important;
+    opacity: 0;
+    float: right;
+}
+
+.wow p{
+    font-size: 13px;
+    color: #6a6a6a;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 10px 15px;
+    -webkit-font-smoothing: antialiased;
+    white-space: pre-wrap;
+}
+
+#wowd{
+    background-color: #ededed;
+    border-top: 1px solid #d7d7d7;
+    position: absolute;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 13px;
+    height: 50px;
+}
+
+.wow:hover{
+    opacity: 1;
 }
 
 .podesa #animes #coveranime img{
