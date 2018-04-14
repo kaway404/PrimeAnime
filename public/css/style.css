@@ -376,8 +376,17 @@ footer{
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
     -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-    background: radial-gradient(ellipse at top,#4f3e8e,#3e2d7d 80%,#3e2d7d);
+    background:#4f3e8e;
     padding: 10px;
     font-size: 22px;
     cursor: pointer;
+}
+
+#alinhara .ja:focus{
+    background-color: #e9e6f6 !important;
+    -webkit-box-shadow: inset 0 0 8px rgba(62,45,125,.1);
+    -moz-box-shadow: inset 0 0 8px rgba(62,45,125,.1);
+    box-shadow: inset 0 0 8px rgba(62,45,125,.1);
+    border: 1px solid rgba(62,45,125,.6);
+    color: #2b1f58;
 }
