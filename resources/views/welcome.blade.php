@@ -5,91 +5,63 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>PrimeAnime</title>
 
+        <link href="/css/style.css" rel="stylesheet" type="text/css">
+        <link href="/css/screen.css" rel="stylesheet" type="text/css">
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
+    <div class="main">
+        <div class="stream">
+        <div id="info">
+            <h1>PrimeAnime</h1>
+            <p>Free Anime acelerado do Japão + todos os hits!</p>
+        </div>
+            <p>Em alta:</p>
+            <h2>One Punch Man</h2>
+        </div>
+        <div id="cover-container">
+        <div class="watch-now">
+        </div>
+        </div>
+    </div>
 
-            .full-height {
-                height: 100vh;
-            }
+    <div class="form">
+        <div id="assinar">
+            <h2>PrimeAnime é exclusivo para o Brasil.<br> Faça já sua inscrição.</h2>
+            <form>
+                <input type="text" class="email-a" placeholder="E-mail">
+                <input type="submit" class="assinar" value="Quero assinar">
+            </form>
+        </div>
+    </div>
 
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
-                    @endauth
+    <div class="podesa">
+        <div id="animes">
+        <h1>Animes populares em nossa plataforma.</h1>
+            <div id="coveranime">
+                <img src="/img/animes/record.jpeg">
+                <div id="footera">
+                    <p>Record of Grancrest War</p>
                 </div>
-            @endif
+            </div>
 
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
+             <div id="coveranime">
+                <img src="/img/animes/record.jpeg">
+                <div id="footera">
+                    <p>Record of Grancrest War</p>
                 </div>
+            </div>
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+             <div id="coveranime">
+                <img src="/img/animes/record.jpeg">
+                <div id="footera">
+                    <p>Record of Grancrest War</p>
                 </div>
             </div>
         </div>
+    </div>
+    
     </body>
 </html>
