@@ -77,6 +77,16 @@
         </div>
     </div>
     
+
+    <div class="assistaonde">
+    <div id="alinhara">
+    <h1>Acesse Anime em todos os seus dispositivos!</h1>
+    <span>Assista no seu PC ou baixe o aplicativo AnimeLab para iOS, Android, PlayStation, Xbox One e Apple TV (2015). O AnimeLab também funciona muito bem com o Google Chromecast, o Apple AirPlay e PCs conectados a TVs.</span>
+    <input class="ja" type="submit" value="Cadastra-se"> 
+    <div class="alldevide"></div>
+    </div>
+    </div>
+
     <footer>
 
     </footer>

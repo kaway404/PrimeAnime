@@ -307,3 +307,62 @@ footer{
     bottom: 0;
     width: 100%;
 }
+
+.assistaonde{
+    background-color: #8370c8;
+    min-width: 590px;
+    position: relative;
+    height: 470px;
+}
+
+.alldevide{
+    background-image: url(/img/main/alldevice.jpg);
+    background-position: bottom right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    float: right;
+}
+
+#alinhara{
+    position: absolute;
+    top: 50px;
+    margin: 0 auto;
+    max-width: 1200px;
+    z-index: 2;
+    left: 0;
+    right: 0;
+}
+
+#alinhara h1{
+    position: absolute;
+    color: #fff;
+    font-size: 24px;
+    width: 700px;
+}
+
+#alinhara span{
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    width: 500px;
+    top: 40px;
+}
+
+#alinhara .ja{
+    width: 250px;
+    height: 60px;
+    position: absolute;
+    bottom: 80px;
+    border: none;
+    color: #fff;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    background: radial-gradient(ellipse at top,#4f3e8e,#3e2d7d 80%,#3e2d7d);
+    padding: 10px;
+    font-size: 22px;
+    cursor: pointer;
+}
