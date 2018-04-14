@@ -49,16 +49,16 @@
             </div>
 
              <div id="coveranime">
-                <img src="/img/animes/record.jpeg">
+                <img src="/img/animes/capa.jpg">
                 <div id="footera">
-                    <p>Record of Grancrest War</p>
+                    <p>One Punch Man</p>
                 </div>
             </div>
 
              <div id="coveranime">
-                <img src="/img/animes/record.jpeg">
+                <img src="/img/animes/rezero.jpg">
                 <div id="footera">
-                    <p>Record of Grancrest War</p>
+                    <p>Re:Zero</p>
                 </div>
             </div>
         </div>
