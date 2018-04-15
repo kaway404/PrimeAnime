@@ -11,7 +11,7 @@
         <link href="/css/screen.css" rel="stylesheet" type="text/css">
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
+        @guest
     <div class="main">
         <div class="stream">
         <div id="info">
@@ -114,5 +114,10 @@
     <div class="singonde2"></div>
     </div>
     </div>
+    @else
+    <script language="JavaScript"> 
+window.location="/home"; 
+</script>
+     @endguest
     </body>
 </html>
