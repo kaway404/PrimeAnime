@@ -100,7 +100,7 @@
     <div class="assistaonde">
     <div id="alinhara">
     <h1>Acesse Anime em todos os seus dispositivos!</h1>
-    <span>Assista no seu PC ou baixe o aplicativo PrimeVideo para iOS, Android, PlayStation, Xbox One e Apple TV (2015). O AnimeLab também funciona muito bem com o Google Chromecast, o Apple AirPlay e PCs conectados a TVs.</span>
+    <span>Assista no seu PC ou baixe o aplicativo PrimeAnime para iOS, Android, PlayStation, Xbox One e Apple TV (2015). O PrimeAnime também funciona muito bem com o Google Chromecast, o Apple AirPlay e PCs conectados a TVs.</span>
     <input class="ja" type="submit" value="Cadastrar"> 
     <div class="alldevide"></div>
     </div>
@@ -114,12 +114,5 @@
     <div class="singonde2"></div>
     </div>
     </div>
-
-
-    <footer>
-
-    </footer>   
-
-    
     </body>
 </html>
