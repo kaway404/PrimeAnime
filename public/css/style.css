@@ -587,8 +587,8 @@ footer{
     position: relative;
     border-radius: 5px;
     display: inline-block;
-    -webkit-transition: all ease-in-out .25s;
-    transition: all ease-in-out .25s;
+    -webkit-transition: all ease-in-out .75s;
+    transition: all ease-in-out .75s;
     cursor: pointer;
     bottom: 0px;
     margin-left: 5px;
@@ -596,9 +596,12 @@ footer{
 }
 
 .container #coveranime:hover{
-    transform: scale(1.1);
+    transform: scale(1.11);
     margin-left: 9px;
     margin-right: 9px;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    z-index: 500;
 }
 
 
