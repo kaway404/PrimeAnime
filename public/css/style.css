@@ -421,6 +421,8 @@ footer{
 .navbar{
     background: #3e2d7d;
     z-index: 2000;
+    position: fixed;
+    width: 100%;
 }
 
 .navbar-brand{
