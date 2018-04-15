@@ -543,7 +543,7 @@ footer{
     width: 100%;
     height: 600px;
     background-size: cover;
-    position: absolute;
+    position: fixed;
     top: 0;
 }
 
@@ -557,4 +557,98 @@ footer{
 .logo img{
     width: 400px;
     height: 200px;
+}
+
+.sectionh{
+    width: 100%;
+    height: auto;
+    background: #150e2f;
+    position: relative;
+    top: 500px;
+    padding-bottom: 30px;
+}
+
+.container h1{
+    color: #fff;
+    font-size: 22px;
+    padding: 20px;
+}
+
+.scroll{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#scroller{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-y: hidden;
+}
+
+.scroll #coveranime{
+    width: 210px;
+    height: 300px;
+    position: relative;
+    border-radius: 5px;
+    display: inline-block;
+    -webkit-transition: all ease-in-out .25s;
+    transition: all ease-in-out .25s;
+    cursor: pointer;
+    bottom: 0px;
+    margin-left: 5px;
+    white-space: nowrap;
+}
+
+
+.scroll .wow p{
+    font-size: 13px;
+    color: #6a6a6a;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 10px 15px;
+    -webkit-font-smoothing: antialiased;
+    white-space: pre-wrap;
+}
+
+.scroll #wowd{
+    background-color: #ededed;
+    border-top: 1px solid #d7d7d7;
+    position: absolute;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 13px;
+    height: 50px;
+}
+
+.scroll .wow:hover{
+    opacity: 1;
+}
+
+.scroll #coveranime img{
+    width: 100%;
+    height: 100%;
+}
+
+.scroll #footera{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    bottom: 4px;
+    background-color: rgba(0,0,0,.3);
+}
+
+.scroll #footera p{
+    color: #fff;
+    padding: 15px;
+    font-size: 18px;
 }
