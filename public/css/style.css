@@ -98,7 +98,7 @@ body{
 
 .form{
     width: 100%;
-    height: 300px;
+    height: 250px;
     position: relative;
     background: #eee;
 }
@@ -108,7 +108,7 @@ body{
     top: 50px;
     margin: 0 auto;
     max-width: 800px;
-    height: 200px;
+    height: 140px;
     z-index: 2;
     left: 0;
     right: 0;
@@ -123,7 +123,7 @@ body{
     z-index: 100;
 }
 
-#assinar .email-a{
+#assinar .forms-a{
     display: block;
     width: 100%;
     height: 34px;
@@ -138,6 +138,7 @@ body{
     border-radius: 4px;
     position: relative;
     top: -30px;
+    margin-top: 10px;
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
     -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
@@ -218,13 +219,13 @@ body{
     width: 210px;
     height: 300px;
     position: relative;
-    bottom: 50px;
     border-radius: 5px;
     display: inline-block;
     -webkit-transition: all ease-in-out .25s;
     transition: all ease-in-out .25s;
     cursor: pointer;
     float: left;
+    bottom: 50px;
     margin-left: 5px;
     white-space: nowrap;
 }
@@ -335,6 +336,13 @@ footer{
     height: 470px;
 }
 
+.singonde{
+    background-color: #3e2d7d;
+    min-width: 590px;
+    position: relative;
+    height: 470px;
+}
+
 .alldevide{
     background-image: url(/img/main/alldevice.jpg);
     background-position: bottom right;
@@ -343,6 +351,18 @@ footer{
     height: 400px;
     width: 100%;
     float: right;
+}
+
+.singonde2{
+    background-image: url(/img/main/sing.jpg);
+    background-position: bottom right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    float: right;
+    top: 20px;
+    position: relative;
 }
 
 #alinhara{
@@ -368,6 +388,7 @@ footer{
     font-size: 20px;
     width: 500px;
     top: 40px;
+    z-index: 200;
 }
 
 #alinhara .ja{
@@ -385,6 +406,7 @@ footer{
     padding: 10px;
     font-size: 22px;
     cursor: pointer;
+    z-index: 200;
 }
 
 #alinhara .ja:hover{
@@ -394,4 +416,145 @@ footer{
     box-shadow: inset 0 0 8px rgba(62,45,125,.1);
     border: 1px solid rgba(62,45,125,.6);
     color: #2b1f58;
+}
+
+.navbar{
+    background: #3e2d7d;
+    z-index: 2000;
+}
+
+.navbar-brand{
+    color: #fff !important;
+}
+
+.navbar .sessao{
+    top: 0;
+    margin-left: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #eee;
+}
+
+.navbar-light .navbar-nav .nav-link:focus{
+    color: #eee;
+}
+
+.jata{
+    width: 100px;
+    height: 40px;
+    position: relative;
+    top: 0px;
+    border: none;
+    color: #fff;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    background:#4f3e8e;
+    padding: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 200;
+}
+
+.jata:hover{
+    background-color: #e9e6f6 !important;
+    -webkit-box-shadow: inset 0 0 8px rgba(62,45,125,.1);
+    -moz-box-shadow: inset 0 0 8px rgba(62,45,125,.1);
+    box-shadow: inset 0 0 8px rgba(62,45,125,.1);
+    border: 1px solid rgba(62,45,125,.6);
+    color: #2b1f58;
+}
+
+.jatas{
+    width: 190px;
+    height: 40px;
+    position: relative;
+    top: 0px;
+    border: none;
+    color: #fff;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    background:#4f3e8e;
+    padding: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 200;
+}
+
+.jatas:hover{
+    background-color: #e9e6f6 !important;
+    -webkit-box-shadow: inset 0 0 8px rgba(62,45,125,.1);
+    -moz-box-shadow: inset 0 0 8px rgba(62,45,125,.1);
+    box-shadow: inset 0 0 8px rgba(62,45,125,.1);
+    border: 1px solid rgba(62,45,125,.6);
+    color: #2b1f58;
+}
+
+.form-group input{
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555;
+    vertical-align: middle;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: relative;
+    top: px;
+    margin-top: 0px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.form-group input:focus{
+    background-color: #e9e6f6;
+    -webkit-box-shadow: inset 0 0 8px rgba(62,45,125,.1);
+    -moz-box-shadow: inset 0 0 8px rgba(62,45,125,.1);
+    box-shadow: inset 0 0 8px rgba(62,45,125,.1);
+    border: 1px solid rgba(62,45,125,.6);
+    color: #2b1f58;
+}
+
+.background{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url("/img/back/background.jpg");
+    position: fixed;
+    top: 0;
+}
+
+.animes-destaque{
+    background-image: url("https://images.alphacoders.com/656/thumb-1920-656720.jpg");
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+}
+
+.logo{
+    position: relative;
+    top: 200px;
+    width: 400px;
+    left: 50px;
+}
+
+.logo img{
+    width: 400px;
+    height: 200px;
 }

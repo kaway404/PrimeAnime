@@ -22,25 +22,17 @@
         </div>
         </div>
         </div>
-        <input type="submit" class="sessao" value="Iniciar sessão">
+        <a href="login"><input type="submit" class="sessao" value="Iniciar sessão"></a>
+        <a href="register"><input type="submit" class="sessao" value="Registro"></a>
             <p>Em alta:</p>
             <h2>One Punch Man</h2>
         </div>
-    </div>
-
-    <div class="form">
-        <div id="assinar">
-            <h2>PrimeAnime é exclusivo para o Brasil.<br> Faça já sua inscrição.</h2>
-            <form>
-                <input type="text" class="email-a" placeholder="E-mail">
-                <input type="submit" class="assinar" value="Quero assinar">
-            </form>
-        </div>
-    </div>
+</div>
 
     <div class="podesa">
         <div id="animes">
         <h1>Animes populares em nossa plataforma.</h1>
+        <div class="overflow">
             <div id="coveranime">
                 <img src="/img/animes/record.jpeg">
                 <div id="footera">
@@ -98,6 +90,9 @@
                 <p>Uma terra assolada pelo caos - Atlatan. Temendo o desastre causado pelo caos, o povo vive sob a proteção dos Senhores - indivíduos munidos do poder dos Brasões, usados para suprimir o caos. Contudo, os Senhores desistiram de proteger seu povo e se viraram uns contra os outros em uma guerra fria, tentando furtar os Brasões uns dos outros para obter supremacia. Dentre eles está Siluca, um mago solitário que detesta os Senhores, e Theo, um cavaleiro errante que segue em jornada de treinamento para algum dia libertar sua terra natal de seu governo tirânico.</p>
                 <div id="wowd"></div>
             </div>
+
+            
+            </div>
         </div>
     </div>
     
@@ -106,14 +101,25 @@
     <div id="alinhara">
     <h1>Acesse Anime em todos os seus dispositivos!</h1>
     <span>Assista no seu PC ou baixe o aplicativo PrimeVideo para iOS, Android, PlayStation, Xbox One e Apple TV (2015). O AnimeLab também funciona muito bem com o Google Chromecast, o Apple AirPlay e PCs conectados a TVs.</span>
-    <input class="ja" type="submit" value="Cadastra-se"> 
+    <input class="ja" type="submit" value="Cadastrar"> 
     <div class="alldevide"></div>
     </div>
     </div>
 
+<div class="singonde">
+    <div id="alinhara">
+    <h1>Direto do Japão!</h1>
+    <span>As melhores fonte,os melhores shows, direto do Japão, rápido para você!</span>
+    <input class="ja" type="submit" value="Ver transmissão."> 
+    <div class="singonde2"></div>
+    </div>
+    </div>
+
+
     <footer>
 
-    </footer>
+    </footer>   
 
+    
     </body>
 </html>
