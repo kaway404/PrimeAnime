@@ -10,8 +10,6 @@
     <div class="container">
     <h1>Animes</h1>
 
-    <div class="scroll">
-        <div id="scroller">
         <div id="coveranime">
                 <img src="/img/animes/record.jpeg">
                 <div id="footera">
@@ -47,9 +45,7 @@
                 </div>
             </div>
         </div>
-    </div>
 
-    </div>
     </div>
 
 @endsection
