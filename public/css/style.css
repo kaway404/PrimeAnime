@@ -571,6 +571,26 @@ footer{
     top: 0;
 }
 
+.animes-destaque h1{
+    z-index: 100;
+    position: fixed;
+    color: #fff;
+    top: 300px;
+    font-size: 22px;
+    width: 900px;
+    left: 50px;
+    background: rgba(0,0,0,.50);
+    padding: 40px;
+}
+
+.logoa{
+    position: relative;
+    top: 100px;
+    left: 50px;
+    width: 500px;
+    height: 180px;
+}
+
 .logo{
     position: relative;
     top: 200px;

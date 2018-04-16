@@ -1,4 +1,9 @@
+@guest
+
+@else
+
 @extends('layouts.app')
+
 
 <style>
 .animes-destaque{
@@ -9,6 +14,8 @@
 @section('content')
 
     <div class="animes-destaque">
+        <img src="{{ $ultimoanime->logo}}" class="logoa">
+        <h1>{{ $ultimoanime->about}}</h1>
     </div>
     <div class="sectionh animes">
     <div class="container" id="nani">
@@ -25,7 +32,6 @@
     </a>
 @endforeach
         </div>
-        
     </div>
-
 @endsection
+@endguest

@@ -19,6 +19,7 @@ class CreateAnimesTable extends Migration
             $table->string('photo');
             $table->string('about');
             $table->string('background');
+            $table->string('logo');
             $table->timestamps();
         });
     }
