@@ -15,7 +15,12 @@ class AnimeController extends Controller
     public function index()
     {
         $animes = Anime::all();
-        return view('home', compact('animes'));
+        $ultimoanime = Anime::orderBy('id', 'desc')->first();
+        return view('home', [
+            'animes' => $animes,
+            'ultimoanime' => $ultimoanime,
+        ]);
+        // return view('home', compact('animes'));
     }
 
     /**
@@ -47,7 +52,7 @@ class AnimeController extends Controller
      */
     public function show(Anime $animes)
     {
-        return view('animes.show', compact('Anime'));
+        return view('animes.index', compact('animes'));
     }
 
     /**

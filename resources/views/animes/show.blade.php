@@ -4,7 +4,7 @@
         <div class="col-md-8">
             <div class="card card-default">
                 <div class="card-body">
-                    @foreach($Animes as $anime)
+                @foreach ($animes as $anime)
                         <div class="card card-default">
                             <div class="card-header">
                                 {{ $anime->name }}

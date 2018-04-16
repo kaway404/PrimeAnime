@@ -1,7 +1,12 @@
 @extends('layouts.app')
 
-@section('content')
+<style>
+.animes-destaque{
+    background-image: url('{{ $ultimoanime->background }}');
+}
+</style>
 
+@section('content')
 
     <div class="animes-destaque">
     </div>
@@ -10,12 +15,14 @@
     <h1>Animes</h1>
 
 @foreach ($animes as $anime)
+    <a href="/anime/{{$anime->id}}">
             <div id="coveranime">
-                <img src="{{$anime->photo}}g">
+                <img src="{{$anime->photo}}">
                 <div id="footera">
                     <p>{{$anime->name}}</p>
                 </div>
             </div>
+    </a>
 @endforeach
         </div>
         
