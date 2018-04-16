@@ -50,9 +50,12 @@ class AnimeController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(Anime $animes)
+    public function show(Request $request, $id)
     {
-        return view('animes.index', compact('animes'));
+         $anime = Anime::get($id);
+         return view('animes.show', [
+            'anime' => $anime
+        ]);
     }
 
     /**

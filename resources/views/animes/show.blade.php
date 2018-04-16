@@ -4,17 +4,7 @@
         <div class="col-md-8">
             <div class="card card-default">
                 <div class="card-body">
-                @foreach ($animes as $anime)
-                        <div class="card card-default">
-                            <div class="card-header">
-                                {{ $anime->name }}
-                            </div>
-                            <div class="card-body">
-                                {{ $anime->about }}
-                            </div>
-                        </div>
-                        <br>
-                    @endforeach
+                    {{$anime->name}}
                 </div>
             </div>
         </div>

@@ -26,6 +26,6 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/app/anime', 'AnimeController@index');
-
 Route::resource('/home', 'AnimeController');
+
+Route::get('/animes/{id}', 'AnimeController@show');
