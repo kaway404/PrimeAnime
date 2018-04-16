@@ -29,7 +29,30 @@ body{
     bottom: 0px;
     float: right;
     left: -80px;
+    animation: saitama 1s;
 }
+
+@keyframes saitama {
+    from {
+      transform: scale(1.1);
+    }
+    to {
+        transform: scale(1.05);
+    }
+  }
+
+.logot{
+    animation: logoa 1s infinite;
+}
+
+@keyframes logoa {
+    from {
+      color: #8370c8;
+    }
+    to {
+        color: #fff;
+    }
+  }
 
 #cover-container{
     position: absolute;
@@ -596,6 +619,10 @@ footer{
     margin-left: 5px;
     white-space: nowrap;
     margin-top: 20px;
+}
+
+#nani #coveranime::before{
+    background: red;
 }
 
 #nani #coveranime:hover{

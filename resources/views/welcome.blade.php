@@ -15,7 +15,7 @@
     <div class="main">
         <div class="stream">
         <div id="info">
-            <h1>PrimeAnime</h1>
+            <h1 class="logot">PrimeAnime</h1>
             <p>Free Anime acelerado do Japão + todos os hits!</p>
             <div id="cover-container">
         <div class="watch-now">
