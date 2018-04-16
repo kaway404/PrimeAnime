@@ -25,3 +25,11 @@ Route::get('/home', 'HomeController@index')->name('home');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/app/anime', 'AnimeController@index');
+
+Route::resource('/app/animes', 'AnimeController');
+
+Route::resources([
+    '/home' => 'AnimeController'
+]);

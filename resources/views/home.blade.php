@@ -5,18 +5,18 @@
 
     <div class="animes-destaque">
     </div>
-    
     <div class="sectionh animes">
     <div class="container" id="nani">
     <h1>Animes</h1>
+
+@foreach ($animes as $anime)
             <div id="coveranime">
-                <img src="/img/animes/record.jpeg">
+                <img src="{{$anime->photo}}g">
                 <div id="footera">
-                    <p>Record of Grancrest ..</p>
+                    <p>{{$anime->name}}</p>
                 </div>
             </div>
-
-
+@endforeach
         </div>
         
     </div>
