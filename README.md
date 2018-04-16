@@ -9,4 +9,4 @@ Img preview
 
 ![alt text](https://raw.githubusercontent.com/kaway404/PrimeAnime/master/apresentar/2.png)
 
-![alt text](https://raw.githubusercontent.com/kaway404/PrimeAnime/master/apresentar/3.png)
+![alt text](https://raw.githubusercontent.com/kaway404/PrimeAnime/master/apresentar/4.png)
