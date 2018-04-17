@@ -41,12 +41,39 @@
     height: 150px;
 }
 
+.about{
+    float: right;
+    max-width: 35%;
+    max-height: 160px;
+    height: auto;
+    overflow: hidden;
+    overflow-y: auto;
+    background: rgba(0,0,0,0.6);
+    border-radius: 3px;
+    color: #fff;
+    padding: 4px;
+    position: relative;
+    font: 500 0.8em 'Montserrat', sans-serif;
+    line-height: 20px;
+    bottom: 200px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0,1);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0,1);
+}
+
+.about p{
+    font-size: 15px;
+}
+
 </style>
 @section('content')
                 <div class="animes-destaques"><div id="lol"></div></div>
                 <div class="container">
                 <div class="anime">
                 <img src="{{$anime->photo}}">
+                </div>
+                <div class="about">
+                <p>{{$anime->about}}</p>
                 </div>
                 </div>
                 <div id="wt">
