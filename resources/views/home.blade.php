@@ -46,10 +46,10 @@
 }
 
 #lol{
-    background: linear-gradient(to top, rgba(1, 1, 1,0.7), rgba(41, 128, 185,0));
+	background: linear-gradient(to top, rgba(1, 1, 1,0.7), rgba(41, 128, 185,0));
     width: 100%;
-    position: relative;
-    top: 25px;
+    position: absolute;
+    bottom: 75px;
     height: 150px;
 }
 </style>
