@@ -65,6 +65,30 @@
     font-size: 15px;
 }
 
+.episode{
+    width: 100%;
+    background: #3e2d7d;
+    color: #fff;
+    position: relative;
+    top: 15px;
+    margin-top: 9px;
+    padding: 0px;
+    cursor: pointer
+}
+
+.episode:hover{
+    background: #22164c;
+}
+
+.episode p{
+    padding: 10px;
+    font-size: 19px;
+}
+
+a{
+    text-decoration: none !important;
+}
+
 </style>
 @section('content')
                 <div class="animes-destaques"><div id="lol"></div></div>
@@ -81,4 +105,13 @@
                 <h1 class="wtf">{{$anime->name}}</h1>
                 </div>
                 </div>
+
+                <div class="container">
+                @foreach ($episodes as $episode)
+                <a href="/assistir/{{$episode->id}}"><li class="episode">
+                <p>Episódio : {{$episode->name}}</p>
+                </li></a>
+                @endforeach
+                </div>  
+
 @endsection

@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use App\Anime;
 use App\Episodes;
 
-class AnimeController extends Controller
+class episodesController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,14 +15,9 @@ class AnimeController extends Controller
      */
     public function index()
     {
-        $animes = Anime::all();
-        $ultimoanime = Anime::orderBy('id', 'desc')->first();
-        return view('home', [
-            'animes' => $animes,
-            'ultimoanime' => $ultimoanime,
-        ]);
-        // return view('home', compact('animes'));
+        //
     }
+
 
     /**
      * Show the form for creating a new resource.
@@ -51,15 +46,9 @@ class AnimeController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(Request $request, $id)
+    public function show($id)
     {
-         $anime = Anime::find($id);
-         $episodes = Episodes::where('idanime', $id)->get();
-         return view('animes.show', [
-            'anime' => $anime,
-            'episodes' => $episodes,
-        ]);
-        
+        //
     }
 
     /**
