@@ -41,27 +41,6 @@
             <h2>{{ $ultimoanime->name }}</h2>
         </div>
 </div>
-
-    <div class="podesa">
-        <div id="animes">
-        <h1>Animes populares em nossa plataforma.</h1>
-        <div class="overflow">
-        @foreach ($animes as $anime)
-            <div id="coveranime">
-                <img src="{{ $anime->photo }}">
-                <div id="footera">
-                    <p>{{ $anime->name }}</p>
-                </div>
-            </div>
-            <div class="wow">
-                <p>{{ $anime->about }}</p>
-                <div id="wowd"></div>
-            </div>
-    @endforeach
-            
-            </div>
-        </div>
-    </div>
     
 
     <div class="assistaonde">
