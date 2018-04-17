@@ -1,8 +1,7 @@
 # PrimeAnime
 PrimeAnime
 
-Prime video create for training
-
+Streaming platform for testing knowledge
 Img preview
 
 ![alt text](https://raw.githubusercontent.com/kaway404/PrimeAnime/master/apresentar/1.1.png)
