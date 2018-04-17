@@ -1,3 +1,7 @@
+@guest
+
+@else
+
 @extends('layouts.app')
 <style>
 .animes-destaques{
@@ -115,3 +119,5 @@ a{
                 </div>  
 
 @endsection
+
+@endguest

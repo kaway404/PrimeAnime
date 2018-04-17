@@ -17,6 +17,7 @@ class CreateEpisodesTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->string('photo');
+            $table->string('url');
             $table->integer('idanime')->unsigned();
             $table->timestamps();
 
