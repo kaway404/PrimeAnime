@@ -20,4 +20,6 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::resource('/home', 'AnimeController');
 
-Route::get('/animes/{id}', 'AnimeController@show');
+Route::resource('/', 'AnimeWelcomeController');
+
+Route::get('/anime/{id}', 'AnimeController@show');

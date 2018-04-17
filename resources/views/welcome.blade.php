@@ -12,20 +12,33 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
         @guest
+
+    <div id="header">
+    <div class="containerta">
+    <h1 class="logot">PrimeAnime</h1>
+    <a href="login"><input type="submit" class="sessao" value="Iniciar sessão"></a>
+    <a href="register"><input type="submit" class="sessao" value="Registro"></a>
+    </div>
+    </div>
+
     <div class="main">
-        <div class="stream">
+    <div id="screen-s"></div>
+    <div class="overflowmain"></div>
+    <style>
+    #screen-s{
+        background-image: url('{{ $ultimoanime->background }}');
+    }
+    </style>
+        <div class="stream" style="z-index: 2400;">
         <div id="info">
-            <h1 class="logot">PrimeAnime</h1>
             <p>Free Anime acelerado do Japão + todos os hits!</p>
+            <img src="{{ $ultimoanime->logo}}" class="logoa">
+            <h3 class="nani">{{ $ultimoanime->about}}</h3>
             <div id="cover-container">
-        <div class="watch-now">
+            </div>
         </div>
-        </div>
-        </div>
-        <a href="login"><input type="submit" class="sessao" value="Iniciar sessão"></a>
-        <a href="register"><input type="submit" class="sessao" value="Registro"></a>
             <p>Em alta:</p>
-            <h2>One Punch Man</h2>
+            <h2>{{ $ultimoanime->name }}</h2>
         </div>
 </div>
 
@@ -33,64 +46,18 @@
         <div id="animes">
         <h1>Animes populares em nossa plataforma.</h1>
         <div class="overflow">
+        @foreach ($animes as $anime)
             <div id="coveranime">
-                <img src="/img/animes/record.jpeg">
+                <img src="{{ $anime->photo }}">
                 <div id="footera">
-                    <p>Record of Grancrest ..</p>
+                    <p>{{ $anime->name }}</p>
                 </div>
             </div>
-
-             <div id="coveranime">
-                <img src="/img/animes/capa.jpg">
-                <div id="footera">
-                    <p>One Punch Man</p>
-                </div>
-            </div>
-
-             <div id="coveranime">
-                <img src="/img/animes/rezero.jpg">
-                <div id="footera">
-                    <p>Re:Zero</p>
-                </div>
-            </div>
-
-            <div id="coveranime">
-                <img src="/img/animes/rezero.jpg">
-                <div id="footera">
-                    <p>Re:Zero</p>
-                </div>
-            </div>
-
-             <div id="coveranime">
-                <img src="/img/animes/capa.jpg">
-                <div id="footera">
-                    <p>One Punch Man</p>
-                </div>
-            </div>
-
-            
-
-            <div id="coveranime" class="wow">
-                <p>Uma terra assolada pelo caos - Atlatan. Temendo o desastre causado pelo caos, o povo vive sob a proteção dos Senhores - indivíduos munidos do poder dos Brasões, usados para suprimir o caos. Contudo, os Senhores desistiram de proteger seu povo e se viraram uns contra os outros em uma guerra fria, tentando furtar os Brasões uns dos outros para obter supremacia. Dentre eles está Siluca, um mago solitário que detesta os Senhores, e Theo, um cavaleiro errante que segue em jornada de treinamento para algum dia libertar sua terra natal de seu governo tirânico.</p>
+            <div class="wow">
+                <p>{{ $anime->about }}</p>
                 <div id="wowd"></div>
             </div>
-            <div id="coveranime" class="wow">
-                <p>Uma terra assolada pelo caos - Atlatan. Temendo o desastre causado pelo caos, o povo vive sob a proteção dos Senhores - indivíduos munidos do poder dos Brasões, usados para suprimir o caos. Contudo, os Senhores desistiram de proteger seu povo e se viraram uns contra os outros em uma guerra fria, tentando furtar os Brasões uns dos outros para obter supremacia. Dentre eles está Siluca, um mago solitário que detesta os Senhores, e Theo, um cavaleiro errante que segue em jornada de treinamento para algum dia libertar sua terra natal de seu governo tirânico.</p>
-                <div id="wowd"></div>
-            </div>
-            <div id="coveranime" class="wow">
-                <p>Uma terra assolada pelo caos - Atlatan. Temendo o desastre causado pelo caos, o povo vive sob a proteção dos Senhores - indivíduos munidos do poder dos Brasões, usados para suprimir o caos. Contudo, os Senhores desistiram de proteger seu povo e se viraram uns contra os outros em uma guerra fria, tentando furtar os Brasões uns dos outros para obter supremacia. Dentre eles está Siluca, um mago solitário que detesta os Senhores, e Theo, um cavaleiro errante que segue em jornada de treinamento para algum dia libertar sua terra natal de seu governo tirânico.</p>
-                <div id="wowd"></div>
-            </div>
-            <div id="coveranime" class="wow">
-                <p>Uma terra assolada pelo caos - Atlatan. Temendo o desastre causado pelo caos, o povo vive sob a proteção dos Senhores - indivíduos munidos do poder dos Brasões, usados para suprimir o caos. Contudo, os Senhores desistiram de proteger seu povo e se viraram uns contra os outros em uma guerra fria, tentando furtar os Brasões uns dos outros para obter supremacia. Dentre eles está Siluca, um mago solitário que detesta os Senhores, e Theo, um cavaleiro errante que segue em jornada de treinamento para algum dia libertar sua terra natal de seu governo tirânico.</p>
-                <div id="wowd"></div>
-            </div>
-            <div id="coveranime" class="wow">
-                <p>Uma terra assolada pelo caos - Atlatan. Temendo o desastre causado pelo caos, o povo vive sob a proteção dos Senhores - indivíduos munidos do poder dos Brasões, usados para suprimir o caos. Contudo, os Senhores desistiram de proteger seu povo e se viraram uns contra os outros em uma guerra fria, tentando furtar os Brasões uns dos outros para obter supremacia. Dentre eles está Siluca, um mago solitário que detesta os Senhores, e Theo, um cavaleiro errante que segue em jornada de treinamento para algum dia libertar sua terra natal de seu governo tirânico.</p>
-                <div id="wowd"></div>
-            </div>
-
+    @endforeach
             
             </div>
         </div>
@@ -101,7 +68,7 @@
     <div id="alinhara">
     <h1>Acesse Anime em todos os seus dispositivos!</h1>
     <span>Assista no seu PC ou baixe o aplicativo PrimeAnime para iOS, Android, PlayStation, Xbox One e Apple TV (2015). O PrimeAnime também funciona muito bem com o Google Chromecast, o Apple AirPlay e PCs conectados a TVs.</span>
-    <input class="ja" type="submit" value="Cadastrar"> 
+    <a href="/register"><input class="ja" type="submit" value="Cadastrar"></a>
     <div class="alldevide"></div>
     </div>
     </div>

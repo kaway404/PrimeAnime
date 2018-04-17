@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Anime;
 
-class AnimeController extends Controller
+class AnimeWelcomeController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,11 +16,10 @@ class AnimeController extends Controller
     {
         $animes = Anime::all();
         $ultimoanime = Anime::orderBy('id', 'desc')->first();
-        return view('home', [
+        return view('welcome', [
             'animes' => $animes,
             'ultimoanime' => $ultimoanime,
         ]);
-        // return view('home', compact('animes'));
     }
 
     /**
@@ -50,12 +49,9 @@ class AnimeController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(Request $request, $id)
+    public function show($id)
     {
-         $anime = Anime::find($id);
-         return view('animes.show', [
-            'anime' => $anime
-        ]);
+        //
     }
 
     /**
