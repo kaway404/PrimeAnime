@@ -16,7 +16,7 @@
 .anime{
     width: 150px;
     height: 200px;
-    box-shadow: 1px 1px 1px rgba(62, 45, 125, 0.83);
+    box-shadow: 0px 0px 10px 0px rgb(62, 45, 125);
     position: absolute;
     top: 210px;
 }
@@ -33,9 +33,17 @@
     position: relative;
 }
 
+#lol{
+    background: linear-gradient(to top, rgba(1, 1, 1,0.7), rgba(41, 128, 185,0));
+    width: 100%;
+    position: relative;
+    top: 250px;
+    height: 150px;
+}
+
 </style>
 @section('content')
-                <div class="animes-destaques"></div>
+                <div class="animes-destaques"><div id="lol"></div></div>
                 <div class="container">
                 <div class="anime">
                 <img src="{{$anime->photo}}">

@@ -44,6 +44,14 @@
 .animes-destaque{
     background-image: url('{{ $ultimoanime->background }}');
 }
+
+#lol{
+    background: linear-gradient(to top, rgba(1, 1, 1,0.7), rgba(41, 128, 185,0));
+    width: 100%;
+    position: relative;
+    top: 25px;
+    height: 150px;
+}
 </style>
 
 @section('content')
@@ -53,6 +61,7 @@
         <img src="{{ $ultimoanime->logo}}" class="logoa">
         <h1>{{ $ultimoanime->about}}</h1>
     </div>
+	<div id="lol"></div> 
     </div>
     <div class="sectionh animes">
     <div class="container" id="nani">
