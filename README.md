@@ -1,7 +1,7 @@
 # PrimeAnime
 PrimeAnime
 
-Prime video create for training
+Video streaming on demand for knowledge tests.
 
 Img preview
 
